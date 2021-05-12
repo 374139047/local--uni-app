@@ -1,0 +1,72 @@
+{
+	//页面路径
+	"pages": [
+        {
+            "path" : "pages/pageA/news",
+			"style": {
+				"navigationBarTitleText": "新闻栏目"
+			}
+        }
+        ,{
+            "path" : "pages/pageB/b",
+			 "style": {
+				"navigationBarTitleText": "page B"
+			 }
+        }
+        ,{
+            "path" : "pages/pageC/c",
+			 "style": {
+				"navigationBarTitleText": "page C"
+			 }
+        }
+        ,{
+            "path" : "pages/pageD/d",
+			 "style": {
+					"navigationBarTitleText": "page D"
+			 }
+        },
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "index"
+			}
+		}
+    ],
+	//默认页面的窗口表现
+	"globalStyle": {
+		"navigationBarTextStyle": "white", //导航栏标题色
+		"navigationBarTitleText": "uni-app",//导航栏标题文字
+		"navigationBarBackgroundColor": "#4CD964",//导航栏背景色
+		"backgroundColor": "#007AFF" //窗口背景色
+	},
+	
+	"tabBar":{
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF", 
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/pageA/news",
+				"iconPath": "static/a-off.png",
+				"selectedIconPath": "static/a-on.png",
+				"text": "新闻"
+			},
+			{
+				"pagePath": "pages/pageB/b",
+				"iconPath": "static/b-off.png",
+				"selectedIconPath": "static/b-on.png",
+				"text": "栏目2"
+			}, {
+				"pagePath": "pages/pageC/c",
+				"iconPath": "static/c-off.png",
+				"selectedIconPath": "static/c-on.png",
+				"text": "栏目3"
+			}, {
+				"pagePath": "pages/pageD/d",
+				"iconPath": "static/d-off.png",
+				"selectedIconPath": "static/d-on.png",
+				"text": "栏目4"
+			}
+		]
+	}
+}
