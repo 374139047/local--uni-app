@@ -8,7 +8,7 @@
 			}
         }
         ,{
-            "path" : "pages/pageB/b",
+            "path" : "pages/native/native",
 			 "style": {
 				"navigationBarTitleText": "page B"
 			 }
@@ -26,9 +26,9 @@
 			 }
         },
 		{
-			"path": "pages/index/index",
+			"path": "pages/test/test",
 			"style": {
-				"navigationBarTitleText": "index"
+				"navigationBarTitleText": "test"
 			}
 		}
     ],
@@ -52,7 +52,7 @@
 				"text": "新闻"
 			},
 			{
-				"pagePath": "pages/pageB/b",
+				"pagePath": "pages/native/native",
 				"iconPath": "static/b-off.png",
 				"selectedIconPath": "static/b-on.png",
 				"text": "栏目2"
