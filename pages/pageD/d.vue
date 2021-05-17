@@ -98,4 +98,7 @@
 .uni-list-cell {
 	justify-content: flex-start
 }
+.checkbox-group{
+	with: 100%;
+}
 </style>
