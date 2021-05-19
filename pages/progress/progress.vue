@@ -23,7 +23,6 @@
     </view>
 </template>
 <script>
-    import uniIcons from '@/components/uni-icons/uni-icons.vue'
     export default {
         data() {
             return {
@@ -31,9 +30,7 @@
                 pgList: [0, 0, 0, 0]
             }
         },
-        components: {
-            uniIcons
-        },
+        components: {},
         methods: {
             setProgress() {
                 this.pgList = [20, 40, 60, 80]
